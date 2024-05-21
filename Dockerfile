@@ -1,6 +1,6 @@
-ARG DF_IMG_TAG=latest
+ARG KE_IMG_TAG=latest
 ARG IMAGE_REPOSITORY=khulnasoft
-FROM $IMAGE_REPOSITORY/steampipe:$DF_IMG_TAG AS steampipe
+FROM $IMAGE_REPOSITORY/steampipe:$KE_IMG_TAG AS steampipe
 
 FROM golang:1.21-bookworm AS build
 ARG VERSION=latest

@@ -7,7 +7,7 @@ Deploy Khulnasoft Cloud Scanner using the appropriate Terraform module for the c
 
 - Cloud scanner is deployed in ECS Fargate / GCP Cloud Run / Azure Container Instance
 - Deployment is done using AWS CloudFormation template or terraform
-- Documentation: https://docs.khulnasoft.com/threatmapper/docs/cloudscanner/
+- Documentation: https://docs.khulnasoft.com/kengine/docs/cloudscanner/
 
 ## Build
 
@@ -42,7 +42,7 @@ docker run -it --rm \
   -v $(pwd):/tmp/output \
   -e CLOUD_ACCOUNT_ID=$AWS_ACCOUNT_ID \
   -e CLOUD_PROVIDER=aws \
-  quay.io/khulnasoft/cloud-scanner:latest \
+  docker.io/khulnasoft/cloud-scanner:latest \
   --mode cli \
   --benchmark $BENCHMARK \
   --file "/tmp/output/$OUTPUT_FILE"
@@ -67,7 +67,7 @@ docker run -it --rm \
   -e CLOUD_ACCOUNT_ID=$GCLOUD_ACCOUNT_ID \
   -e CLOUDSDK_CORE_PROJECT=$GCLOUD_ACCOUNT_ID \
   -e CLOUD_PROVIDER=gcp \
-  quay.io/khulnasoft/cloud-scanner:latest \
+  docker.io/khulnasoft/cloud-scanner:latest \
   --mode cli \
   --benchmark $BENCHMARK \
   --file "/tmp/output/$OUTPUT_FILE"
@@ -98,7 +98,7 @@ docker run -it --rm \
   -e AZURE_SUBSCRIPTION_ID=$AZURE_ACCOUNT_ID \
   -e AZURE_TENANT_ID=$AZURE_TENANT_ID \
   -e CLOUD_PROVIDER=azure \
-  quay.io/khulnasoft/cloud-scanner:latest \
+  docker.io/khulnasoft/cloud-scanner:latest \
   --mode cli \
   --benchmark $BENCHMARK \
   --file "/tmp/output/$OUTPUT_FILE"
