@@ -1,0 +1,3 @@
+[submodule "golang_sdk"]
+	path = golang_sdk
+	url = https://github.com/khulnasoft-lab/golang_sdk
