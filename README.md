@@ -1,5 +1,5 @@
 # Khulnasoft Cloud Scanner
-Khulnasoft Cloud Scanner runs in your cloud environment, gathering inventory and compliance information for the assets deployed in that environment. It submits that information to your Khulnasoft ThreatMapper or ThreatStryker Management Console.
+Khulnasoft Cloud Scanner runs in your cloud environment, gathering inventory and compliance information for the assets deployed in that environment. It submits that information to your Khulnasoft Kengine or ThreatStryker Management Console.
 
 Deploy Khulnasoft Cloud Scanner using the appropriate Terraform module for the cloud you wish to monitor.
 
