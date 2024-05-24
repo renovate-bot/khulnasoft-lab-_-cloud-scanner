@@ -12,7 +12,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/khulnasoft-lab/golang_sdk/client v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft-lab/golang_sdk/utils v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/kengine/khulnasoft_utils v0.0.0-20240521032803-0e921c0742fe
+	github.com/khulnasoft/kengine/khulnasoft_utils 22855cd4b666
 	github.com/lib/pq v1.10.9
 	github.com/rs/zerolog v1.32.0
 )
