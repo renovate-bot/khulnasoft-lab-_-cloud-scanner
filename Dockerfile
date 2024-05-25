@@ -2,7 +2,7 @@ ARG KE_IMG_TAG=latest
 ARG IMAGE_REPOSITORY=khulnasoft
 FROM $IMAGE_REPOSITORY/steampipe:$KE_IMG_TAG AS steampipe
 
-FROM golang:1.21-bookworm AS build
+FROM golang:1.22-bookworm AS build
 ARG VERSION=latest
 
 WORKDIR /home/khulnasoft/src/cloud_scanner
