@@ -565,6 +565,8 @@ github.com/kevinburke/ssh_config v1.2.0 h1:x584FjTGwHzMwvHx18PXxbBVzfnxogHaAReU4
 github.com/kevinburke/ssh_config v1.2.0/go.mod h1:CT57kijsi8u/K/BOFA39wgDQJ9CxiF4nAY/ojJ6r6mM=
 github.com/khulnasoft-lab/steampipe v0.0.0-20240517123944-7cef272d4458 h1:5FzQzAPxTQyFVvp+VFx1inDcQG3jcLl0nPjaOHXBatU=
 github.com/khulnasoft-lab/steampipe v0.0.0-20240517123944-7cef272d4458/go.mod h1:ZIjhhaAKqRwyAU8t5QbopNzKOhEsGdaljTmfHLPltYY=
+github.com/khulnasoft-lab/steampipe v0.23.2 h1:SC2bTzU37honh48WaF6vCJRJ3Ex7BdbDWXQaNkupW+E=
+github.com/khulnasoft-lab/steampipe v0.23.2/go.mod h1:ZIjhhaAKqRwyAU8t5QbopNzKOhEsGdaljTmfHLPltYY=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
 github.com/klauspost/compress v1.15.11/go.mod h1:QPwzmACJjUTFsnSHH934V6woptycfrDDJnH7hvFVbGM=
 github.com/klauspost/compress v1.17.0 h1:Rnbp4K9EjcDuVuHtd0dgA4qNuv9yKDYKK1ulpJwgrqM=

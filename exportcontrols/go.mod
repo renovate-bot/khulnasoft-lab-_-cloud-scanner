@@ -4,7 +4,7 @@ go 1.21.0
 
 toolchain go1.22.2
 
-replace github.com/turbot/steampipe => github.com/khulnasoft-lab/steampipe v0.0.0-20240517123944-7cef272d4458
+replace github.com/turbot/steampipe => github.com/khulnasoft-lab/steampipe v0.23.2
 
 //replace github.com/turbot/steampipe => ../../steampipe
 
