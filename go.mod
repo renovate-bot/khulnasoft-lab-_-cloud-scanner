@@ -11,7 +11,7 @@ require (
 	github.com/aws/aws-sdk-go v1.50.19
 	github.com/google/uuid v1.6.0
 	github.com/khulnasoft-lab/golang_sdk/client v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft-lab/golang_sdk/utils v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft-lab/golang_sdk/utils bf32ab7fa596
 	github.com/khulnasoft/kengine/khulnasoft_utils v0.0.0-20240521032803-0e921c0742fe
 	github.com/lib/pq v1.10.9
 	github.com/rs/zerolog v1.32.0
