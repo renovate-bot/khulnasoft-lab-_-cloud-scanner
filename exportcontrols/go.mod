@@ -8,7 +8,7 @@ replace github.com/turbot/steampipe => github.com/khulnasoft-lab/steampipe v0.0.
 
 //replace github.com/turbot/steampipe => ../../steampipe
 
-require github.com/turbot/steampipe v0.23.2
+require github.com/turbot/steampipe/v2 v2.1.0
 
 require (
 	cloud.google.com/go v0.112.0 // indirect
